@@ -4,7 +4,7 @@
 > **Recently we change the name of Genova-v2.0 to SAKSHAM-PRS so in some files instead of Genova,SAKSHAM-PRS is mentioned.**
 ---
 
-## 📌 Executive Summary & Research Motivation
+##  Executive Summary & Research Motivation
 
 Standard Polygenic Risk Score (PRS) models trained predominantly on European (EUR) discovery cohorts exhibit severe **ancestry based biasness** when deployed on South Asian (SAS) genomes due to differences in allele frequencies and linkage disequilibrium (LD) structure. **Genova** was engineered to address this cross-ancestry generalization gap for ischemic stroke risk,diabetes and other polygenic diseases stratification while rigorously controlling for sub-continental population substructure.
 
@@ -50,7 +50,7 @@ Evaluating genome-wide polygenic models across multi-cohort whole-genome sequenc
 
 ---
 
-## 🧬 Snp
+##  Snp
 
 To verify whether Genova captures clinically established South Asian ischemic stroke biology while maintaining a well-regularized polygenic architecture, 8 candidate single-nucleotide polymorphisms (SNPs) were curated from South Asian stroke meta-analyses and case-control studies (*Yadav et al., 2013; Saleheen et al., 2005; Munshi et al., 2012*).
 
@@ -69,7 +69,7 @@ Following automated intersection against our harmonized chromosomal weight matri
 
 ---
 
-## 📊  Statistical work and Results
+##  Statistical work and Results
 
 The uploaded Excel workbooks (`COMBINED_experiment_results.xlsx` and sub-cohort sheets) contain the complete individual-level results. Below is the detailed mathematical breakdown and verification of every analytical metric.
 
@@ -236,7 +236,7 @@ The accompanying spreadsheets (`COMBINED_experiment_results.xlsx`, `PJL_experime
 
 ---
 
-## 🛠️ Software & Computational Stack
+## Software & Computational Stack
 
 * **Genomic Processing & Scoring:** `PLINK v2.00a` (`--score`, binary `.bed/.bim/.fam` manipulation), `VCFtools`
 * **Data Engineering & Statistical Computing:** `Python 3.10+` (`pandas`, `numpy`, `scipy.stats`), `GNU Awk`, `Bash` automation
